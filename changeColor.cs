@@ -26,7 +26,10 @@ public class changeColor : MonoBehaviour {
 			GetComponent<Renderer> ().material.color = Color.magenta;
 
 	}
-	
+	if (Input.GetKeyDown (KeyCode.W)) {
+			GetComponent<Renderer> ().material.color = Color.white;
+
+	}
 	
 	}
 		
